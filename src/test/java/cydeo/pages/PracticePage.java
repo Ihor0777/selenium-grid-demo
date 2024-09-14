@@ -37,8 +37,8 @@ public class PracticePage {
     public void login() {
         // ENV VARIABLE ?
 
-        String username = ConfigurationReader.getProperty("username");
-        String password = ConfigurationReader.getProperty("password");
+        String username = System.getenv("username");
+        String password = System.getenv("password");
 
 
 
